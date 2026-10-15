@@ -1,0 +1,19 @@
+:root{--accent:#C8F169}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:#ECE8E0;-webkit-font-smoothing:antialiased}
+
+html{scroll-behavior:smooth}
+
+a{color:#141414}
+a:hover{color:#57534B}
+
+a:focus-visible{outline:3px solid #141414;outline-offset:3px;border-radius:14px}
+
+a:active{transform:scale(0.97);transition:transform 100ms ease-out}
+
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}
+a:active{transform:none}
+}
+
+@media (prefers-reduced-transparency: reduce){nav > div{background:#FFFFFF !important;backdrop-filter:none !important}
+}
