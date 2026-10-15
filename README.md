@@ -8,7 +8,8 @@ Een statische website: alleen HTML en CSS, geen build-stap nodig.
 
 ```
 index.html          De website
-styles.css          Basisstijlen en de accentkleur (--accent)
+styles.css          Alle stijlen; kleuren staan als variabelen bovenaan (o.a. --accent)
+script.js           Fade-in bij scrollen, actieve menu-link en de terug-naar-boven-knop (mobiel)
 assets/portrait.jpg Profielfoto
 assets/favicon.svg  Icoon in het browsertabblad
 .nojekyll           Zorgt dat GitHub Pages de bestanden ongewijzigd serveert
